@@ -1,0 +1,10 @@
+[*.cs]
+# Enforce private fields to have an underscore prefix
+dotnet_naming_style.private_fields.required_prefix = _
+dotnet_naming_style.private_fields.capitalization = camel_case
+dotnet_code_style.naming_preferences = true
+
+# Enforce the rule for private fields
+dotnet_naming_rule.private_fields_underscore.prefix = _
+dotnet_naming_rule.private_fields_underscore.style = camel_case
+dotnet_naming_rule.private_fields_underscore.severity = suggestion
